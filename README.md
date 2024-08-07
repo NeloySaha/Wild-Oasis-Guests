@@ -2,7 +2,7 @@
 
 The Wild Oasis is a Hotel Reservation Website. It's a next.js project. It was part of the **Jonas Schmedtmann's Complete React Course**.
 
-### Visit Live Demo **[Here](http://localhost:3000)** 🚀
+### Visit Live Demo **[Here](https://wild-oasis-guests-two.vercel.app)** 🚀
 
 ## Features ⚙️
 
