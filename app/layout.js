@@ -2,6 +2,7 @@ import { Josefin_Sans } from "next/font/google";
 import "@/app/_styles/globals.css";
 import Header from "@/app/_components/Header";
 import { ReservationContextProvider } from "./_components/ReservationContext";
+import { Analytics } from "@vercel/analytics/react";
 
 // has variable font weight, so don't need to mention the weight here
 const josefin = Josefin_Sans({
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
             <ReservationContextProvider>{children}</ReservationContextProvider>
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
